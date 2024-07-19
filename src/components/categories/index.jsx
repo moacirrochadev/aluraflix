@@ -89,7 +89,7 @@ function Category() {
       <div className="categories">
         {selectedVideo && (
           <div className="video-details">
-            <h2>{selectedVideo.title}</h2>
+            <h2 className='text-zinc-600'>{selectedVideo.title}</h2>
             <p>{selectedVideo.description}</p>
             <iframe
               className="video"
@@ -103,7 +103,7 @@ function Category() {
         )}
 
         <div className="category frontend">
-          <h2>Frontend</h2>
+          <h2 className='text-lime-600'>Frontend</h2>
           <div className="videos-container">
             <div className="videos">
               {videos.map((video) => {
