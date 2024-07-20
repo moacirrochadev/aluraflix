@@ -1,18 +1,27 @@
-import './App.css';
-
-// eslint-disable-next-line no-unused-vars
-import styles from "./input.css";
-import Header from './componentes/Header';
-import Banner from './componentes/Banner';
-import Categorias from './componentes/Categorias';
+import Banner from "./componentes/Banner";
+import Header from "./componentes/Header";
+import FrontEnd from "./componentes/Front-end";
+import BackEnd from "./componentes/Back-end";
+import Mobile from "./componentes/Mobile";
+import Rodape from "./componentes/Rodape";
 
 function App() {
   return (
-    <>
+    <div className="App">
+      {/**HEADER DO ALURAFLIX */}
       <Header />
+      {/**BANNER PRINCIPAL */}
       <Banner />
-      <Categorias />      
-    </>
+      {/**VÍDEOS DE FRONT-END */}
+      <FrontEnd />
+      {/**VIDEOS DE BACK-END */}
+      <BackEnd />
+      {/**VÍDEOS MOBILE */}
+      <Mobile />
+      {/**Rodapé do site */}
+      <Rodape />
+
+    </div>
   );
 }
 
