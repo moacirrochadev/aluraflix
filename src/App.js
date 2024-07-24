@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Header } from "./componentes/Header";
+import { Header } from "./componentes/Header/index.js";
 import { Home } from "./componentes/Home/index.js";
 
 function App() {
