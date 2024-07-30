@@ -4,8 +4,8 @@ import { Home } from "./componentes/Home/index.js";
 
 function App() {
   return (
-    <div className="App">
-      <div className="w-[1440px] bg-zinc-800">
+    <div className="App text-zinc-50 text-xl antialiased">
+      <div className="divide-y-4 divide-blue-700">
         {/**HEADER DO ALURAFLIX */}
         <Header />
         {/**CORPO DO SITE QUE IRÁ MUDAR */}

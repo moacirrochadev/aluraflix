@@ -7,23 +7,25 @@ export function Header (){
 
     return (
       <div>
-        <header className="flex items-center justify-between p-8">
-          <img src={logo} alt="Logo" />
-          <nav className="flex gap-8 border-4justify-between">
-            <button
-              onClick={handleClick}
-              className="text-zinc-200 text-2xl font-semibold w-[180px] p-2 border-4 border-blue-700 rounded-2xl"
+        <nav className="flex items-center justify-between p-4 bg-zinc-800">
+          <a href="/">
+            <img src={logo} alt="Logo" className="w-32 lg:w-44 bg-zinc-800" />
+          </a>
+          <div className="flex gap-x-2 bg-zinc-800">
+            <a
+              href="/"
+              className="text-base lg:text-xl lg:text-center font-black lg:w-44 border-4 border-blue-700 hover:bg-zinc-600 bg-zinc-800 rounded-lg px-2"
             >
               HOME
-            </button>
-            <button
-              onClick={handleClick}
-              className="text-zinc-200 text-2xl font-semibold w-[180px] p-2 border-4 border-blue-700 rounded-2xl"
+            </a>
+            <a
+              href="/"
+              className="text-base lg:text-xl lg:text-center font-black lg:w-44 border-4 border-blue-700 hover:bg-zinc-600 bg-zinc-800 rounded-lg px-2"
             >
               NOVO VÍDEO
-            </button>
-          </nav>
-        </header>
+            </a>
+          </div>
+        </nav>
       </div>
     );
 }

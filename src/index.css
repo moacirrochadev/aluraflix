@@ -4,9 +4,5 @@
 
 * {
   min-width: 0px;
-  font-family: 'Roboto';
-}
-
-input {
-  color-scheme: dark;
+  background-color: rgba(0, 0, 0, 0.9);
 }

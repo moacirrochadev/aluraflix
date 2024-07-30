@@ -1,12 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-// eslint-disable-next-line import/no-anonymous-default-export
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
         sans: "Roboto",
       },
+    },
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "1280px",
+      xl: "1440px",
     },
   },
   plugins: [],
